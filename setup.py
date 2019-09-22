@@ -7,8 +7,8 @@ setup(
     name='LAT',
     version='1.0',
     packages=[
-        'LAT', 'LAT.Commands',
-        'LAT.Optional'
+        'pyrspy', 'pyrspy.Commands',
+        'pyrspy.Optional'
     ],
     install_requires=[
         'mss', 'pynput',
