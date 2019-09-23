@@ -7,7 +7,7 @@ pyRSPY is a Command Line Interface (CLI) tool written in python. It's a tool for
 * Keylogging
 * Screenshot capturing
 * Audio capturing
-* Webcam footage capturing (Linux support only for now)
+* Webcam footage capturing (Ubuntu-based distros support only for now)
 * Archiving the data captured
 * Emailing the data captured (Works with Gmail only!)
 
