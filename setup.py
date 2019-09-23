@@ -4,7 +4,7 @@ with open('README.md') as f:
     long_description = f.read()
 
 setup(
-    name='LAT',
+    name='pyRSPY',
     version='1.0',
     packages=[
         'pyrspy', 'pyrspy.Commands',
