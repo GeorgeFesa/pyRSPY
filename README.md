@@ -48,13 +48,13 @@ python3 setup.py install
 For Linux based targets you need to install also:
 
 ```
+cd pyrspy
 python3 libportaudio2_fix.py
 ```
 
 To check if everything installed correctly type:
 
 ```
-cd pyrspy
 python3 pyrspy.py -V
 ```
 
